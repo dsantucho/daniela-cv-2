@@ -1,3 +1,10 @@
+
+#Tech
+
+- Tailwind CSS
+- Matirial icon => install comand: npm install @mui/icons-material @mui/material @emotion/styled @emotion/react
+- react-router-dom => npm i react-router-dom
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
