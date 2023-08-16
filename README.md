@@ -4,6 +4,7 @@
 - Tailwind CSS
 - Matirial icon => install comand: npm install @mui/icons-material @mui/material @emotion/styled @emotion/react
 - react-router-dom => npm i react-router-dom
+- React Spring [parallax] => npm i @react-spring/web & npm i @react-spring/parallax
 
 # Getting Started with Create React App
 

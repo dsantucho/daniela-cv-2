@@ -1,0 +1,54 @@
+.animation, .animation_layer {
+	height: 1000px;
+}
+
+.animation {
+  display: block;
+	position: relative;
+	z-index: 10;
+}
+
+.animation_layer {
+	background-position: bottom center;
+	background-size: auto 1038px;
+	background-repeat: repeat-x;
+	width: 100%;
+	position: absolute;
+}
+.animation_layer_no_repete {
+	background-position: bottom center;
+	background-size: auto 1038px;
+	background-repeat: no-repeat;
+	width: 100%;
+	position: absolute;
+}
+.animation_layer_no_repete.parallex{
+    position: fixed;
+}
+.animation_layer.parallax {
+	position: fixed;
+}
+#sky{
+    background-image: url(./assets/paralax-layers/layer1-01.png);
+}
+#clouds{
+    background-image: url(./assets/paralax-layers/layer22-01.png);
+}
+#mountains{
+    background-image: url(./assets/paralax-layers/layer3-01.png);
+}
+#trees{
+    background-image: url(./assets/paralax-layers/layer4-01.png);
+}
+#castel{
+    background-image: url(./assets/paralax-layers/layer5-01.png);
+}
+#trees2{
+    background-image: url(./assets/paralax-layers/layer6-01.png);
+}
+#water{
+    background-image: url(./assets/paralax-layers/layer7-01.png);
+}
+#boat{
+    background-image: url(./assets/paralax-layers/boat-disney.png);
+}
