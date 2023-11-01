@@ -11,12 +11,12 @@ import BottomParallex from "../components/BottomParallex";
 
 const Home = () => {
   return (
-    <div className="w-full  bg-sky-600">
-      <div className="container flex flex-wrap items-center justify-between mx-auto p-4 mt-24 ">
+    <div className="flex w-full  h-full">
+      <div className="max-w-screen-xl flex  items-center justify-center mx-auto p-4 mt-24 ">
         <Parallax
           pages={3}
           style={{ top: "0", left: "0" }}
-          className="animation mt-24"
+          className="flex flex-col animation mt-24"
         >
           <HeaderParallex />
 
@@ -40,6 +40,8 @@ const Home = () => {
               backgroundRepeat: "no-repeat",
               backgroundPosition: "bottom right",
               width: "100%",
+              pointerEvents: 'none',
+              userSelect:'none',
             }}
           />
         </Parallax>

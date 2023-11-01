@@ -158,10 +158,10 @@ const HeaderParallex = () => {
           position: "fixed",
           width: "100%",
         }}
-        className="block xl:hidden"
+        className="block 2xl:hidden"
       />
       <ParallaxLayer
-        offset={0}
+        offset={0.1}
         speed={0.01}
         style={{
           backgroundImage: `url(${backgraundTopBoat})`,
@@ -170,7 +170,7 @@ const HeaderParallex = () => {
           position: "fixed",
           width: "100%",
         }}
-        className="hidden xl:block"
+        className="hidden 2xl:block"
       />
       {/*END boat en small y en mas xl para quedar en posicion */}
     </div>

@@ -16,6 +16,7 @@ const BottomParallex = () => {
         style={{
           backgroundImage: `url(${BottomBackgraund})`,
           backgroundSize: 'cover',
+          backgroundRepeat: 'no-repeat',
         }}
       />
       <ParallaxLayer
@@ -23,8 +24,8 @@ const BottomParallex = () => {
         speed={1}
         style={{
           backgroundImage: `url(${Land})`,
-          backgroundSize: 'contain',
-          backgroundRepeat: 'repeat-x',
+          backgroundSize: 'cover',
+          backgroundRepeat: 'no-repeat',
           backgroundPosition: 'bottom',
           width: '100%',
         }}
@@ -35,7 +36,7 @@ const BottomParallex = () => {
         style={{
           backgroundImage: `url(${Algas})`,
           backgroundSize: 'contain',
-          backgroundRepeat: 'repeat-x',
+          backgroundRepeat: 'no-repeat',
           backgroundPosition: 'bottom',
           width: '100%',
         }}
@@ -47,13 +48,13 @@ const BottomParallex = () => {
         style={{
           backgroundImage: `url(${Fish})`,
           backgroundSize: 'contain',
-          backgroundRepeat: 'repeat-x',
+          backgroundRepeat: 'no-repeat',
           backgroundPosition: 'bottom',
           width: '100%',
         }}/>
       <ParallaxLayer
         offset={2}
-        speed={-0.5}
+        speed={0.5}
         style={{
           backgroundImage: `url(${Nemo})`,
           backgroundSize: 'auto 640px',
